@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="WPF Automation Test">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.hl.listeners.CustomListeners" />
+	</listeners>
+
+	<test name="Functional Test">
+		<classes>
+			<class name="com.hl.testcases.WPF.CreateWPFTest" />
+		</classes>
+	</test> 
+	
+	<!--test name="Valid Login Test">
+		<classes>
+			<class name="com.cl.testcases.ValidLoginTest" />
+		</classes>
+	</test--> 
+	
+</suite> 
+
+<!--java -Dhudson.model.DirectoryBrowserSupport.CSP="" -jar jenkins.war-->

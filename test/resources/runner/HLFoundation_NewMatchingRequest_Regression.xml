@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="HL Foundation New Matching Request Regression Test">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.hl.listeners.CustomListeners" />
+	</listeners>
+
+	<tests>
+		<test name="HL Foundation New Matching Request File Upload Test">
+			<groups>  
+    	    	<run>  
+        	    	<include name="upload"/>  
+         		</run>  
+		    </groups> 
+			<classes>
+				<class name="com.hl.testcases.hlfoundation.NewMatchingRequestTest" />
+			</classes>
+		</test> 
+		<test name="HL Foundation New Matching Request Sanity Test">
+			<groups>  
+    	    	<run>  
+        	    	<include name="sanity"/>  
+         		</run>  
+		    </groups> 
+			<classes>
+				<class name="com.hl.testcases.hlfoundation.NewMatchingRequestTest" />
+			</classes>
+		</test> 
+	</tests>
+	
+</suite> 
+
+

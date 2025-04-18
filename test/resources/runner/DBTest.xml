@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Company Directory Automation Test">
+
+	
+	<test name="Company Directory Search Test">
+		<classes>
+			<class name="com.hl.rough.DatabaseTest" />
+		</classes>
+	</test> 
+
+</suite> 
+
+<!--java -Dhudson.model.DirectoryBrowserSupport.CSP="" -jar jenkins.war-->

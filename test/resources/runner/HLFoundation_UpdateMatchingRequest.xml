@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="HL Foundation Automation Test">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.hl.listeners.CustomListeners" />
+	</listeners>
+	<tests>
+		<test name="HL Foundation New Matching Request Test1">
+			<classes>
+				<class name="com.hl.testcases.hlfoundation.UpdateMatchingRequestTest" />
+			</classes>
+		</test> 
+	</tests>
+</suite> 
+
+

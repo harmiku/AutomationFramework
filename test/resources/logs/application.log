@@ -1,0 +1,7 @@
+04/17/2025 16:44:32 testLogger Config file loaded.
+04/17/2025 16:44:36 testLogger Chrome Lunched.
+04/17/2025 16:45:17 testLogger Navigated to : https://conflictscheck-test.hl.com/my-requests
+04/17/2025 16:45:17 testLogger Set EntityName Filter = testharmik
+04/17/2025 16:45:17 testLogger Clicked Search button
+04/17/2025 16:45:18 testLogger SearchByEntityName - Test completed
+04/17/2025 16:45:19 testLogger Suite test execution completed.

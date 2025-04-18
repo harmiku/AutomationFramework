@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Company Directory Automation Test">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.hl.listeners.CustomListeners" />
+	</listeners>
+
+	<test name="Company Directory Search Test">
+		<classes>
+			<class name="com.hl.testcases.companydirectory.SearchTest" />
+		</classes>
+	</test> 
+
+	<test name="Company Directory Sidebar Test">
+		<groups>
+            <run>
+                <include name = "regression">
+                </include>
+            </run>
+        </groups>
+		<classes>
+			<class name="com.hl.testcases.companydirectory.SidebarTest" />
+		</classes>
+	</test> 
+
+</suite> 
+
+<!--java -Dhudson.model.DirectoryBrowserSupport.CSP="" -jar jenkins.war-->

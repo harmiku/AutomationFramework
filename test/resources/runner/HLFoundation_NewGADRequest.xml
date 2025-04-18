@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="HL Foundation New Give A Day Request Test111">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.hl.listeners.CustomListeners" />
+	</listeners>
+	<tests>
+		<test name="HL Foundation New Give A Day Request Test222">
+			<classes>
+				<class name="com.hl.testcases.hlfoundation.NewGADRequestTest" />
+			</classes>
+		</test> 
+	</tests>
+</suite> 
+
+
